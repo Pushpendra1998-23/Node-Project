@@ -1,0 +1,81 @@
+{
+	"id": "e9caead2-2c1a-8bc4-232d-09516132ba72",
+	"name": "Node assignment",
+	"description": "",
+	"order": [
+		"223b4fc1-b35e-c2e6-00ec-aa56d81bf6cc",
+		"0f7d4830-cc0b-7df3-e9e9-dfc66bd8195b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1601658719550,
+	"owner": 0,
+	"public": false,
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "0f7d4830-cc0b-7df3-e9e9-dfc66bd8195b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/products",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e9caead2-2c1a-8bc4-232d-09516132ba72",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Create Product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601658804017,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t  \"Name\":\"\",\n    \"Description\":\"\",\n    \"Ram\":\"\",\n    \"Processor\":\"\",\n    \"Type\":\"Mobile\"\n}",
+			"collection_id": "e9caead2-2c1a-8bc4-232d-09516132ba72"
+		},
+		{
+			"id": "223b4fc1-b35e-c2e6-00ec-aa56d81bf6cc",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/products",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e9caead2-2c1a-8bc4-232d-09516132ba72",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Get Products",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1601658759936,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t  \"Name\":\"Samsung Galaxy F41\",\n    \"Description\":\"Samsung Galaxy F41 smartphone was launched on 8th October 2020. The phone comes with a 6.40-inch touchscreen display with a resolution of 1080x2340 pixels at a pixel density of 403 pixels per inch (ppi) and an aspect ratio of 19.5:9.\",\n    \"Ram\":\"110\",\n    \"Processor\":\"8 MHz\",\n    \"Type\":\"Mobile\"\n}",
+			"collection_id": "e9caead2-2c1a-8bc4-232d-09516132ba72"
+		}
+	]
+}
